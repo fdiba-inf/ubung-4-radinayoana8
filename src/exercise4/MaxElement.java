@@ -12,7 +12,7 @@ public class MaxElement {
 
     double[] numbers = new double[size];
 
-     System.out.println("Enter numbers: ");
+    System.out.println("Enter numbers: ");
     for (int index = 0; index < numbers.length; index++) {
       numbers[index] = input.nextDouble();
     }
@@ -24,12 +24,15 @@ public class MaxElement {
         }
 
     }
-    System.out.println("Max number: " + maxNumber);
-    
-  }
 
+    System.out.println("Max number: " + maxNumber);
+  }
 }
-  
+
+
+
+
+
    
         
 
